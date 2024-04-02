@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 
 const FourthPage = ({handleContinue}) => {
-  const [selectedLevel, setSelectedLevel] = useState('');
+
   const [isActive,setActive] = useState(false)
-  const handleLevelChange = (level) => {
-    setSelectedLevel(level);
-  };
+ 
 
   return (
     <div className=' w-[80%] shadow-lg  flex flex-col justify-center items-center mt-24  mb-7 fourth-page  '>
