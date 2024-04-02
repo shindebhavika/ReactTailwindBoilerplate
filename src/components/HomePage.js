@@ -9,7 +9,7 @@ import SixthPage from './SixthPage';
 
 function HomePage() {
   const [progress, setProgress] = useState(0);
-  const [pageNo, setPageNo] = useState(1);
+  const [pageNo, setPageNo] = useState(3);
 
   const handleContinue = () => {
     setProgress((prevProgress) => {
