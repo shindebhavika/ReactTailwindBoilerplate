@@ -1,12 +1,13 @@
-import DemoComponent from "./DemoComponent";
-
+import React from 'react'
+import HomePage from './components/HomePage'
 
 function App() {
   return (
     <div>
-   <DemoComponent />
+      <HomePage></HomePage>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
